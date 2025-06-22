@@ -4,7 +4,8 @@ body{
 .card{
     height: 510px;
     background-color: white;
-    width: 350px;
+    width: 90%;
+    max-width:350px
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,14 +30,15 @@ img{
 .text{
     text-align: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
    .card{
-    width: 300px;
-    height: 550px;
+   width: 90%;
+    height: auto;
+    padding: 1rem;
    }
    img{
-    height: 300px;
-    width: 270px;
+    width: 100%;
+    height: auto;
    }
     
 }
